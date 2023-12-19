@@ -22,13 +22,10 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-<!-- HTML部分 -->
+
+<!-- HTML Part -->
 <script setup>
   import Test from "../src/components/Test.vue"
 </script>
 
 <Test></Test>
-
-## Hello
-
-hello

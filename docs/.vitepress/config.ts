@@ -1,4 +1,6 @@
 import { defineConfig } from "vitepress";
+// @ts-ignore
+import { resolve } from "path";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -14,6 +16,19 @@ export default defineConfig({
     //   },
     // ],
   ],
+  locales: {
+    root: {
+      label: "English",
+      lang: "en",
+    },
+    fr: {
+      label: "French",
+      lang: "fr", // optional, will be added  as `lang` attribute on `html` tag
+      link: "/fr/guide", // default /fr/ -- shows on navbar translations menu, can be external
+
+      // other locale specific properties...
+    },
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -34,5 +49,14 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
+  },
+
+  vite: {
+    resolve: {
+      alias: {
+        // @ts-ignore
+        "@": resolve(__dirname, "src"),
+      },
+    },
   },
 });
