@@ -26,7 +26,7 @@ export default defineConfig({
     logo: "/logo2009.svg",
     i18nRouting: true,
     editLink: {
-      pattern: "https://github.com/advancedfx/afx-doc/master/docs/:path",
+      pattern: "https://github.com/advancedfx/afx-doc/edit/master/docs/:path",
       text: "Edit this page on GitHub",
     },
     footer: {
@@ -129,7 +129,8 @@ export default defineConfig({
           text: "上次更新",
         },
         editLink: {
-          pattern: "https://github.com/advancedfx/afx-doc/master/docs/:path",
+          pattern:
+            "https://github.com/advancedfx/afx-doc/edit/master/edit/docs/:path",
           text: "在 GitHub 上编辑此页",
         },
         footer: {
