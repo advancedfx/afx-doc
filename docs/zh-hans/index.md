@@ -5,10 +5,7 @@ layout: home
 hero:
   name: "Advancedfx"
   text: "Enrich Source engine based movie making."
-  tagline: "docs for movie makers"
-  image:
-    src: logo2009.svg
-    alt: logo for hlae
+  tagline: "集锦制作者文档"
   actions:
     - theme: brand
       text: Markdown Examples
@@ -28,7 +25,7 @@ features:
 
 <!-- HTML Part -->
 <script setup>
-  import Test from "../src/components/Test.vue"
+  import Test from "../../src/components/Test.vue"
 </script>
 
 <Test></Test>
