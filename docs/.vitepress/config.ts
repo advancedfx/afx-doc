@@ -18,17 +18,6 @@ export default defineConfig({
       },
     ],
   ],
-  locales: {
-    root: {
-      label: "English",
-      lang: "en",
-    },
-    "zh-hans": {
-      label: "简体中文",
-      lang: "zh-hans",
-      link: "/zh-hans/",
-    },
-  },
   lastUpdated: true,
   cleanUrls: true,
 
@@ -51,6 +40,7 @@ export default defineConfig({
     ],
 
     // @ts-ignore
+    // https://github.com/jooy2/vitepress-sidebar
     sidebar: generateSidebar([
       {
         documentRootPath: "/docs",
@@ -60,8 +50,7 @@ export default defineConfig({
         useTitleFromFileHeading: false,
         sortMenusByFrontmatterOrder: true,
         useFolderTitleFromIndexFile: true,
-        collapsed: true,
-        rootGroupCollapsed: false,
+        collapsed: false,
         collapseDepth: 2,
         // ignore other language folders
         excludeFolders: ["zh-hans", "zh-hant"],
@@ -75,13 +64,14 @@ export default defineConfig({
         sortMenusByFrontmatterOrder: true,
         useFolderTitleFromIndexFile: true,
         collapsed: true,
-        rootGroupCollapsed: false,
         collapseDepth: 2,
       },
+      // NOTE: Add more language support
     ]),
 
     socialLinks: [
       { icon: "github", link: "https://github.com/advancedfx/advancedfx" },
+      { icon: "discord", link: "https://discord.gg/e7sgYQcR" },
     ],
 
     search: {
@@ -108,10 +98,55 @@ export default defineConfig({
               },
             },
           },
+          // NOTE: Add more language support
           // "zh-hant": {},
         },
       },
     },
+  },
+
+  // i18n
+  locales: {
+    root: {
+      label: "English",
+      lang: "en",
+    },
+
+    // Override Config for Chinese Simplified locale
+    "zh-hans": {
+      label: "简体中文",
+      lang: "zh-hans",
+      link: "/zh-hans/",
+      title: "Advancedfx",
+      description:
+        "Half-Life Advanced Effects (HLAE) is a tool to enrich Source (mainly CS:GO) engine based movie making.",
+      themeConfig: {
+        lastUpdated: {
+          text: "上次更新",
+        },
+        editLink: {
+          pattern: "https://github.com/advancedfx/afx-doc/master/docs/:path",
+          text: "在 GitHub 上编辑此页",
+        },
+        footer: {
+          message: "Made with ❤️ by Advancedfx",
+          copyright: "Copyright © 2023-present xxx",
+        },
+        nav: [
+          { text: "指南", link: "/guides/" },
+          { text: "教程", link: "/tutorials/" },
+          { text: "常见问题", link: "/faq/" },
+          { text: "博客", link: "/blog/" },
+          { text: "发布", link: "/releases/" },
+          { text: "下载", link: "/" }, // TODO: link to download #
+        ],
+      },
+    },
+
+    // NOTE: Add more language support
+
+    // Override Config for Chinese Traditional locale
+    // "zh-hant": {},
   },
 
   vite: {},

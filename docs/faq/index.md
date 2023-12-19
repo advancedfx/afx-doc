@@ -1,4 +1,4 @@
 ---
-order: 9999
 title: FAQ
+order: 30
 ---
