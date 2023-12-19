@@ -22,11 +22,9 @@ export default defineConfig({
       lang: "en",
     },
     fr: {
-      label: "French",
-      lang: "fr", // optional, will be added  as `lang` attribute on `html` tag
-      link: "/fr/guide", // default /fr/ -- shows on navbar translations menu, can be external
-
-      // other locale specific properties...
+      label: "Simplified Chinese",
+      lang: "zh",
+      link: "/zh/guide",
     },
   },
   themeConfig: {
