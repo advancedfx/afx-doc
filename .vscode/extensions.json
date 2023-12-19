@@ -1,3 +1,6 @@
 {
-  "recommendations": ["Vue.volar", "Vue.vscode-typescript-vue-plugin"]
+  "recommendations": [
+    "misterj.vue-volar-extention-pack",
+    "andrewmcodes.tailwindcss-extension-pack"
+  ]
 }
