@@ -7,15 +7,15 @@ hero:
   text: "Enrich Source engine based movie making."
   tagline: "docs for movie makers"
   image:
-    src: logo2009.svg
+    src: /logo2009.svg
     alt: logo for hlae
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /guides/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: View on GitHub
+      link: https://github.com/advancedfx/advancedfx
 
 features:
   - title: Feature A
@@ -27,8 +27,8 @@ features:
 ---
 
 <!-- HTML Part -->
-<script setup>
-  import Test from "../src/components/Test.vue"
+<!-- <script setup>
+  import Test from "./components/Test.vue"
 </script>
 
-<Test></Test>
+<Test></Test> -->

@@ -1,5 +1,4 @@
 ---
-title: Guides
+title: Guide
 ---
-
-# Guides
+# The main file
