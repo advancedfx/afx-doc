@@ -29,6 +29,10 @@ export default defineConfig({
       pattern: "https://github.com/advancedfx/afx-doc/master/docs/:path",
       text: "Edit this page on GitHub",
     },
+    footer: {
+      message: "Made with ❤️ by Advancedfx",
+      copyright: "Copyright © 2023-present xxx",
+    },
 
     nav: [
       { text: "Guides", link: "/guides/" },
