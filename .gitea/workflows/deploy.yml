@@ -33,5 +33,3 @@ jobs:
         with:
           push: true
           tags: purp1e/afx-doc:latest
-          cache-from: type=registry,ref=user/app:buildcache
-          cache-to: type=registry,ref=user/app:buildcache,mode=max
