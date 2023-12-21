@@ -1,5 +1,5 @@
 # 依赖和构建
-FROM node:20-alpine AS build
+FROM purp1e/alpine-more:latest AS build
 WORKDIR /app
 COPY . .
 RUN apk add --no-cache git
