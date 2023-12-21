@@ -2,6 +2,7 @@
 FROM node:20-alpine AS build
 WORKDIR /app
 COPY . .
+RUN apk add --no-cache git
 RUN npm config set registry https://registry.npm.taobao.org
 RUN npm install -g pnpm
 RUN pnpm config set registry https://registry.npm.taobao.org
