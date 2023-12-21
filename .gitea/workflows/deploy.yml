@@ -32,6 +32,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: purp1e/hlae-site:latest
+          tags: purp1e/afx-doc:latest
           cache-from: type=registry,ref=user/app:buildcache
           cache-to: type=registry,ref=user/app:buildcache,mode=max
