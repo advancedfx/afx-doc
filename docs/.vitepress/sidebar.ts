@@ -37,23 +37,20 @@ const sidebar = generateSidebar([
   // zh-hans: Simplified Chinese
   {
     ...common_options,
-    documentRootPath: "/docs/zh-hans",
-    scanStartPath: "",
-    resolvePath: "/",
+    scanStartPath: "zh-hans",
+    resolvePath: "/zh-hans/",
     excludeFolders: ["releases", "blog"],
   },
   {
     ...common_options,
-    documentRootPath: "/docs/zh-hans",
-    scanStartPath: "releases",
-    resolvePath: "/releases/",
+    scanStartPath: "zh-hans/releases",
+    resolvePath: "/zh-hans/releases/",
     sortMenusOrderByDescending: true,
   },
   {
     ...common_options,
-    documentRootPath: "/docs/zh-hans",
-    scanStartPath: "blog",
-    resolvePath: "/blog/",
+    scanStartPath: "zh-hans/blog",
+    resolvePath: "/zh-hans/blog/",
     sortMenusOrderByDescending: true,
   },
   // NOTE: Add more language support
