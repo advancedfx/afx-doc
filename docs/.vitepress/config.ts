@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 import { generateSidebar } from "vitepress-sidebar";
 // @ts-ignore
 import { resolve } from "path";
+import sidebar from "./sidebar";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -45,33 +46,7 @@ export default defineConfig({
 
     // @ts-ignore
     // https://github.com/jooy2/vitepress-sidebar
-    sidebar: generateSidebar([
-      {
-        documentRootPath: "/docs",
-        scanStartPath: "",
-        resolvePath: "/",
-        useTitleFromFrontmatter: true,
-        useTitleFromFileHeading: false,
-        sortMenusByFrontmatterOrder: true,
-        useFolderTitleFromIndexFile: true,
-        collapsed: false,
-        collapseDepth: 2,
-        // ignore other language folders
-        excludeFolders: ["zh-hans", "zh-hant"],
-      },
-      {
-        documentRootPath: "/docs",
-        scanStartPath: "zh-hans",
-        resolvePath: "/zh-hans/",
-        useTitleFromFrontmatter: true,
-        useTitleFromFileHeading: false,
-        sortMenusByFrontmatterOrder: true,
-        useFolderTitleFromIndexFile: true,
-        collapsed: true,
-        collapseDepth: 2,
-      },
-      // NOTE: Add more language support
-    ]),
+    sidebar: sidebar,
 
     socialLinks: [
       { icon: "github", link: "https://github.com/advancedfx/advancedfx" },
@@ -138,12 +113,12 @@ export default defineConfig({
           copyright: "Copyright © 2023-present xxx",
         },
         nav: [
-          { text: "指南", link: "/guides/" },
-          { text: "教程", link: "/tutorials/" },
-          { text: "常见问题", link: "/faq/" },
-          { text: "博客", link: "/blog/" },
-          { text: "发布", link: "/releases/" },
-          { text: "下载", link: "/" }, // TODO: link to download #
+          { text: "指南", link: "/zh-hans/guides/" },
+          { text: "教程", link: "/zh-hans/tutorials/" },
+          { text: "常见问题", link: "/zh-hans/faq/" },
+          { text: "博客", link: "/zh-hans/blog/" },
+          { text: "发布", link: "/zh-hans/releases/" },
+          { text: "下载", link: "/zh-hans/" }, // TODO: link to download #
         ],
       },
     },
