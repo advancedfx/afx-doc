@@ -12,6 +12,7 @@ const common_options = {
 };
 
 // Auto Sidebar generation config
+// https://github.com/jooy2/vitepress-sidebar
 const sidebar = generateSidebar([
   {
     ...common_options,

@@ -45,7 +45,6 @@ export default defineConfig({
     ],
 
     // @ts-ignore
-    // https://github.com/jooy2/vitepress-sidebar
     sidebar: sidebar,
 
     socialLinks: [
