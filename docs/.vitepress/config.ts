@@ -37,7 +37,7 @@ export default defineConfig({
 
     nav: [
       { text: "Guides", link: "/guides/" },
-      { text: "Tutorials", link: "/tutorials/" },
+      { text: "Commands", link: "/commands/" },
       { text: "FAQ", link: "/faq/" },
       { text: "Blog", link: "/blog/" },
       { text: "Releases", link: "/releases/" },
@@ -114,7 +114,7 @@ export default defineConfig({
         },
         nav: [
           { text: "指南", link: "/zh-hans/guides/" },
-          { text: "教程", link: "/zh-hans/tutorials/" },
+          { text: "指令", link: "/zh-hans/commands/" },
           { text: "常见问题", link: "/zh-hans/faq/" },
           { text: "博客", link: "/zh-hans/blog/" },
           { text: "发布", link: "/zh-hans/releases/" },

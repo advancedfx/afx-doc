@@ -1,5 +1,6 @@
 ---
-title: Guide
+title: Guides
 order: 10
 ---
-# The main file
+
+# Guides

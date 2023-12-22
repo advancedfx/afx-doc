@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guides/
+      link: /guides/get_started
     - theme: alt
       text: View on GitHub
       link: https://github.com/advancedfx/advancedfx
