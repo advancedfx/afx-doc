@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: View on GitHub
       link: https://github.com/advancedfx/advancedfx
+    - theme: alt
+      text: Doc Project
+      link: https://github.com/advancedfx/afx-doc
 
 features:
   - icon: 🎥
