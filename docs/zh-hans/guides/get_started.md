@@ -1,6 +1,8 @@
 ---
-title: Get Started
+title: 入门
 order: 0
 ---
 
-# Get Started
+# 入门
+
+Yo~✋🏻

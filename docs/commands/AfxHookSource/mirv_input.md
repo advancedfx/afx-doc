@@ -1,5 +1,5 @@
 ---
-title: input
+title: mirv_input
 order: 30
 ---
 # mirv_input

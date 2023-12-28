@@ -1,5 +1,5 @@
 ---
 sidebar: true
-title: Blog
+title: 博客
 order: 50
 ---

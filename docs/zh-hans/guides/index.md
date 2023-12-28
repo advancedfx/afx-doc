@@ -1,5 +1,5 @@
 ---
-title: Guides
+title: 指南
 order: 10
 ---
 

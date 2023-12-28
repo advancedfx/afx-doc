@@ -1,5 +1,5 @@
 ---
-title: Commands
+title: 指令
 order: 20
 ---
-# Commands
+# 指令
