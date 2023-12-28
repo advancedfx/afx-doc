@@ -20,7 +20,7 @@ hero:
 features:
   - icon: 🎥
     title: Making Smooth Camera Paths
-    details: mirv_campath and mirv_input ensures the max ability to make extraordinary camera paths
+    details: mirv_campath and mirv_input ensures the ability to make extraordinary camera paths
   - icon: 💬
     title: AdvancedFX Game Recording
     details: Export motion data into the 3D software blender with AGR
@@ -35,7 +35,7 @@ features:
     details: You can block specific deathnotices, sounds and more with advancedfx
   - icon: 📑
     title: Detailed Documentaion and Tech Support
-    details: Check out this doc and the discord channel to get support and QA
+    details: Check out this doc and the Discord channel to get support and QA
 ---
 
 <!-- HTML Part -->
