@@ -104,7 +104,7 @@ export default defineConfig({
         },
         editLink: {
           pattern:
-            "https://github.com/advancedfx/afx-doc/edit/master/edit/docs/:path",
+            "https://github.com/advancedfx/afx-doc/edit/master/docs/:path",
           text: "在 GitHub 上编辑此页",
         },
         docFooter: {
