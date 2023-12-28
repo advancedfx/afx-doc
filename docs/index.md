@@ -18,12 +18,24 @@ hero:
       link: https://github.com/advancedfx/advancedfx
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 🎥
+    title: Making Smooth Camera Paths
+    details: mirv_campath and mirv_input ensures the max ability to make extraordinary camera paths
+  - icon: 💬
+    title: AdvancedFX Game Recording
+    details: Export motion data into the 3D software blender with AGR
+  - icon: 🎞️
+    title: Breaking through the Limitation of the original replay system
+    details: Moving around freely when a demo is paused; Fixing various demo issues
+  - icon: ➡️
+    title: Advanced stream recording system
+    details: mirv_streams let you record high quality and multi-stream footages, providing possibilities of advanced effects
+  - icon: 💬
+    title: Blocking specific deathnotices and more
+    details: You can block specific deathnotices, sounds and more with advancedfx
+  - icon: 📑
+    title: Detailed Documentaion and Tech Support
+    details: Check out this doc and the discord channel to get support and QA
 ---
 
 <!-- HTML Part -->
