@@ -4,18 +4,18 @@ layout: home
 
 hero:
   name: "Advancedfx"
-  text: "Enrich Source engine based movie making."
-  tagline: "集锦制作者文档"
+  text: "赋能起源引擎视频制作"
+  tagline: "集锦制作文档"
   image:
     src: /logo2009.svg
     alt: logo for hlae
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开始
+      link: /guides/get_started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: GitHub 项目
+      link: https://github.com/advancedfx/advancedfx
 
 features:
   - title: Feature A

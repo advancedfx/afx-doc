@@ -1,6 +1,6 @@
 ---
 title: Help Translation
-order: 9999
+order: 90
 ---
 
 # Help Translation

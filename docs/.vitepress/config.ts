@@ -107,9 +107,13 @@ export default defineConfig({
             "https://github.com/advancedfx/afx-doc/edit/master/edit/docs/:path",
           text: "在 GitHub 上编辑此页",
         },
+        docFooter: {
+          prev: "上一页",
+          next: "下一页",
+        },
         footer: {
           message: "Made with ❤️ by Advancedfx",
-          copyright: "Copyright © 2023-present xxx",
+          copyright: "Copyright © 2023-present advancedfx.org",
         },
         nav: [
           { text: "指南", link: "/zh-hans/guides/" },
