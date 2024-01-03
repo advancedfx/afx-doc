@@ -24,7 +24,7 @@ features:
   - icon: 🎥
     title: Making Smooth Camera Paths
     details: mirv_campath and mirv_input ensures the ability to make extraordinary camera paths
-  - icon: 💬
+  - icon: ⏺️
     title: AdvancedFX Game Recording
     details: Export motion data into the 3D software blender with AGR
   - icon: 🎞️
