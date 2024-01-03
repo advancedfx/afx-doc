@@ -1,6 +1,6 @@
 ---
 title: Installation
-order: 10
+order: 3
 ---
 
 # Installation

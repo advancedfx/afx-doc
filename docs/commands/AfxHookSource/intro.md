@@ -1,5 +1,5 @@
 ---
 title: Intro
-order: 10
+order: 0
 ---
 # Counter Strike: Global Offensive
