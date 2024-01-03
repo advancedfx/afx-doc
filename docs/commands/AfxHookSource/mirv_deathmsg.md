@@ -47,18 +47,17 @@ bind "h" "localplayer"
 ## The display time of death notifications
 
 `mirv_deathmsg lifetime` // allows to set the display time of normal death notices in seconds. To clear notices set `mirv_deathmsg lifeTime default` (or even 0) and rewind back to e.g. the round start.
-
 `mirv_deathmsg lifetimeMod` // a multiplier in seconds for the localPlayer (red border), so the display time of those notices is lifetime * lifetimeMod
 
 ## How to block everything except a specific player:
 
-1) `mirv_listentities isPlayer=1` // note down the XUID (replace <XUID> below with it)
+1) `mirv_listentities isPlayer=1` // note down the XUID (replace \<XUID\> below with it)
 2) `mirv_deathmsg filter clear`
 3) `mirv_deathmsg filter add attackerMatch=!x<XUID> victimMatch=!x<XUID> block=1 lastRule=1`
 
 ## How to highlight (red border) a specific player:
 
-1) `mirv_listentities isPlayer=1` // note down the XUID (replace <XUID> below with it)
+1) `mirv_listentities isPlayer=1` // note down the XUID (replace \<XUID\> below with it)
 2) `mirv_deathmsg localPlayer x<XUID>`
 
 ## Block everything except specific multiple players:
