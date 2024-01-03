@@ -7,20 +7,22 @@ title: mirv_deathmsg
 This command allows to filter death notifications and to control the death notification display time.
 
 **Table of Contents**
-* [Supported Games](#supported-games)
-* [Script by Chet Jong](#script-by-chet-jong)
-* **Examples**
-  * [The display time of death notices](#the-display-time-of-death-notifications)
-  * [How to block everything except a specific player](#how-to-block-everything-except-a-specific-player)
-  * [How to highlight a specific player (red border)](#how-to-highlight-red-border-a-specific-player)
-  * [Block everything except multiple players](#block-everything-except-specific-multiple-players)
-  * [Block everything except multiple players + highlight (red border)](#block-everything-except-specific-multiple-players--highlight-red-border)
-  * [Highlight multiple players without blocking](#highlight-red-border-only-specific-multiple-players-without-blocking)
-  * [Hiding icons](#hiding-icons)
-  * [More examples](#more-examples)
-* [More options](#more-options)
-* [Selection of players](#selection-of-players)
-* [Match negation](#match-negation)
+- [mirv\_deathmsg](#mirv_deathmsg)
+- [Supported Games](#supported-games)
+- [Script by Chet Jong](#script-by-chet-jong)
+- [Examples](#examples)
+  - [The display time of death notifications](#the-display-time-of-death-notifications)
+  - [How to block everything except a specific player:](#how-to-block-everything-except-a-specific-player)
+  - [How to highlight (red border) a specific player:](#how-to-highlight-red-border-a-specific-player)
+  - [Block everything except specific multiple players:](#block-everything-except-specific-multiple-players)
+  - [Block everything except specific multiple players + highlight (red-border):](#block-everything-except-specific-multiple-players--highlight-red-border)
+  - [Highlight (red-border) only specific multiple players, without blocking](#highlight-red-border-only-specific-multiple-players-without-blocking)
+  - [Hiding icons](#hiding-icons)
+  - [More examples](#more-examples)
+- [More options](#more-options)
+  - [Selection of players](#selection-of-players)
+  - [Match negation](#match-negation)
+- [See also](#see-also)
 
 # Supported Games
 
@@ -37,7 +39,7 @@ alias "localplayer_on" "mirv_deathmsg filter add attackerMatch=!xTrace block=1 l
 alias "localplayer_off" "mirv_deathmsg filter clear;alias localplayer localplayer_on;echo KILLFEED: DEFAULT"
 
 unbind h
-bind "h" "localplayer" 
+bind "h" "localplayer"
 ```
 
 # Examples
@@ -73,7 +75,7 @@ mirv_deathmsg filter add victimMatch=x<XUID> block=0
 mirv_deathmsg filter clear
 mirv_deathmsg filter add block=1
 // Repeat these two for every player <XUID> you want to see:
-mirv_deathmsg filter add attackerMatch=x<XUID> attackerIsLocal=1 block=0 
+mirv_deathmsg filter add attackerMatch=x<XUID> attackerIsLocal=1 block=0
 mirv_deathmsg filter add victimMatch=x<XUID> victimIsLocal=1 block=0
 ```
 

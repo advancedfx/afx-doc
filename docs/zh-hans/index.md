@@ -42,8 +42,14 @@ features:
 ---
 
 <!-- HTML Part -->
-<!-- <script setup>
-  import Test from "/components/Test.vue"
+<script setup>
+import Download from "../components/Download.vue"
 </script>
 
-<Test></Test> -->
+<Download
+  DownloadText="下载"
+  latestVersionText="最新版本"
+  latestReleasePageText="最新发布页"
+  DownloadZipText="下载 .zip"
+  DownloadExeText="下载 .exe 安装器"
+/>

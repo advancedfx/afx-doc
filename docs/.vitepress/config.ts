@@ -41,7 +41,7 @@ export default defineConfig({
       { text: "FAQ", link: "/faq/" },
       { text: "Blog", link: "/blog/" },
       { text: "Releases", link: "/releases/" },
-      { text: "Download", link: "/" }, // TODO: link to download #
+      { text: "Download", link: "/#download" },
     ],
 
     // @ts-ignore
@@ -136,7 +136,7 @@ export default defineConfig({
           { text: "常见问题", link: "/zh-hans/faq/" },
           { text: "博客", link: "/zh-hans/blog/" },
           { text: "发布", link: "/zh-hans/releases/" },
-          { text: "下载", link: "/zh-hans/" }, // TODO: link to download #
+          { text: "下载", link: "/zh-hans/#download" },
         ],
       },
     },
