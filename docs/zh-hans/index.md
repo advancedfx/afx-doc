@@ -24,7 +24,7 @@ features:
   - icon: 🎥
     title: 制作丝滑的运镜
     details: mirv_campath 和 mirv_input 确保了制作惊艳的相机路径的能力
-  - icon: 💬
+  - icon: ⏺️
     title: AdvancedFX 游戏录制
     details: 使用 AGR 导出运动信息到三维软件 Blender
   - icon: 🎞️
