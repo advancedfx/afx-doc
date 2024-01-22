@@ -61,14 +61,14 @@ onMounted(async () => {
         <a
           href="https://api.upup.cool/get/hlae"
           target="_blank"
-          class="px-4 py-2 transition bg-gray-100 border rounded cursor-pointer hover:bg-gray-200 max-w-fit"
+          class="download-btn"
         >
           {{ DownloadZipText }}
         </a>
         <a
           href="https://api.upup.cool/get/hlae-installer"
           target="_blank"
-          class="px-4 py-2 transition bg-gray-100 border rounded cursor-pointer hover:bg-gray-200 max-w-fit"
+          class="download-btn"
         >
           {{ DownloadExeText }}
         </a>
@@ -76,3 +76,9 @@ onMounted(async () => {
     </div>
   </div>
 </template>
+
+<style scoped>
+.download-btn {
+  @apply px-4 py-2 transition bg-gray-100 dark:bg-black text-black border rounded cursor-pointer  hover:bg-gray-200 dark:hover:bg-gray-900 max-w-fit;
+}
+</style>
